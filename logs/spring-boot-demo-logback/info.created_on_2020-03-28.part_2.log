@@ -1,0 +1,8 @@
+2020-03-28 23:51:29.053  INFO 9260 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3301 ms
+2020-03-28 23:51:29.120  INFO 9260 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-03-28 23:51:29.128  INFO 9260 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-28 23:51:29.129  INFO 9260 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-28 23:51:29.129  INFO 9260 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-03-28 23:51:29.130  INFO 9260 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-28 23:51:29.532  INFO 9260 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 23:51:30.050  INFO 9260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'

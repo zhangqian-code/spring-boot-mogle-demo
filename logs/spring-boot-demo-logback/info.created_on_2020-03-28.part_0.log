@@ -1,0 +1,25 @@
+2020-03-28 23:48:13.576  INFO 4012 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Starting SpringBootDemoLogbackApplication on PC-20170714BZSH with PID 4012 (D:\GitWorkSpace\spring-boot-mogle-demo\spring-boot-mogle-demo-logback\target\classes started by Administrator in D:\GitWorkSpace\spring-boot-mogle-demo)
+2020-03-28 23:48:13.579  INFO 4012 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : No active profile set, falling back to default profiles: default
+2020-03-28 23:48:16.082  INFO 4012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-28 23:48:16.119  INFO 4012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-28 23:48:16.120  INFO 4012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-03-28 23:48:16.136  INFO 4012 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_151\jre\bin;F:\app\Administrator\product\11.1.0\db_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\VisualSVN Server\bin;c:\Python27;D:\nodejs;D:\nodejs\npm_modules;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.5.3\bin\bin;D:\360Downloads\mule-standalone-4.1.1\bin;D:\BaiduNetdiskDownload\erl9.3\bin;D:\BaiduNetdiskDownload\erl9.3\bin;D:\a_mayun_learn\apache-ant-1.9.14-bin\apache-ant-1.9.14\bin;D:\nodejs\node_global;D:\BaiduNetdiskDownload\erl9.3\bin;;.]
+2020-03-28 23:48:16.359  INFO 4012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-03-28 23:48:16.360  INFO 4012 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2609 ms
+2020-03-28 23:48:16.416  INFO 4012 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-03-28 23:48:16.423  INFO 4012 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-28 23:48:16.424  INFO 4012 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-28 23:48:16.424  INFO 4012 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-03-28 23:48:16.425  INFO 4012 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-28 23:48:16.820  INFO 4012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-28 23:48:17.497  INFO 4012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-03-28 23:48:17.502  INFO 4012 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Started SpringBootDemoLogbackApplication in 5.057 seconds (JVM running for 5.904)
+2020-03-28 23:48:17.507  INFO 4012 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Spring boot启动初始化了 124 个 Bean
+2020-03-28 23:48:17.508  WARN 4012 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Spring boot启动初始化了 124 个 Bean
+2020-03-28 23:48:17.513  INFO 4012 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : 【SpringBootDemoLogbackApplication】启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.mogle.coding.logback.SpringBootDemoLogbackApplication.main(SpringBootDemoLogbackApplication.java:22)
+
+2020-03-28 23:51:25.646  INFO 9260 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Starting SpringBootDemoLogbackApplication on PC-20170714BZSH with PID 9260 (D:\GitWorkSpace\spring-boot-mogle-demo\spring-boot-mogle-demo-logback\target\classes started by Administrator in D:\GitWorkSpace\spring-boot-mogle-demo)
+2020-03-28 23:51:25.652  INFO 9260 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : No active profile set, falling back to default profiles: default
