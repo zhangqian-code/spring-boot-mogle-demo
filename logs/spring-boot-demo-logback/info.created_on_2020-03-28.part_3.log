@@ -1,8 +1,0 @@
-2020-03-28 23:51:30.070  INFO 9260 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Started SpringBootDemoLogbackApplication in 5.538 seconds (JVM running for 6.22)
-2020-03-28 23:51:30.077  INFO 9260 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Spring boot启动初始化了 124 个 Bean
-2020-03-28 23:51:30.078  WARN 9260 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Spring boot启动初始化了 124 个 Bean
-2020-03-28 23:51:30.082  INFO 9260 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : 【SpringBootDemoLogbackApplication】启动异常：
-
-java.lang.ArithmeticException: / by zero
-	at com.mogle.coding.logback.SpringBootDemoLogbackApplication.main(SpringBootDemoLogbackApplication.java:22)
-
