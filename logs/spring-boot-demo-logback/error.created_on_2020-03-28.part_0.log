@@ -1,2 +1,0 @@
-2020-03-28 23:48:17.508 ERROR 4012 --- [main] c.m.c.l.SpringBootDemoLogbackApplication SpringBootDemoLogbackApplication.java:19: Spring boot启动初始化了 124 个 Bean
-2020-03-28 23:51:30.078 ERROR 9260 --- [main] c.m.c.l.SpringBootDemoLogbackApplication SpringBootDemoLogbackApplication.java:19: Spring boot启动初始化了 124 个 Bean
