@@ -1,0 +1,23 @@
+2020-03-29 10:33:05.279  INFO 5676 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Starting SpringBootDemoLogbackApplication on PC-20170714BZSH with PID 5676 (D:\GitWorkSpace\spring-boot-mogle-demo\spring-boot-mogle-demo-logback\target\classes started by Administrator in D:\GitWorkSpace\spring-boot-mogle-demo)
+2020-03-29 10:33:05.291  INFO 5676 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : No active profile set, falling back to default profiles: default
+2020-03-29 10:33:09.414  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-29 10:33:10.151  INFO 5676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-29 10:33:10.152  INFO 5676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-03-29 10:33:10.332  INFO 5676 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_151\jre\bin;F:\app\Administrator\product\11.1.0\db_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\VisualSVN Server\bin;c:\Python27;D:\nodejs;D:\nodejs\npm_modules;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.5.3\bin\bin;D:\360Downloads\mule-standalone-4.1.1\bin;%ERLANG_HOME%\bin;%ERLANG_HOME%\bin;D:\a_mayun_learn\apache-ant-1.9.14-bin\apache-ant-1.9.14\bin;D:\nodejs\node_global;%ERLANG_HOME%\bin;;.]
+2020-03-29 10:33:10.879  INFO 5676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/demo]   : Initializing Spring embedded WebApplicationContext
+2020-03-29 10:33:10.880  INFO 5676 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5395 ms
+2020-03-29 10:33:10.964  INFO 5676 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-03-29 10:33:10.982  INFO 5676 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-03-29 10:33:10.982  INFO 5676 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-03-29 10:33:10.982  INFO 5676 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-03-29 10:33:10.983  INFO 5676 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-03-29 10:33:11.628  INFO 5676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-29 10:33:12.307  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-03-29 10:33:12.311  INFO 5676 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Started SpringBootDemoLogbackApplication in 9.818 seconds (JVM running for 11.878)
+2020-03-29 10:33:12.318  INFO 5676 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Spring boot启动初始化了 124 个 Bean
+2020-03-29 10:33:12.318  WARN 5676 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : Spring boot启动初始化了 124 个 Bean
+2020-03-29 10:33:12.325  INFO 5676 --- [main] c.m.c.l.SpringBootDemoLogbackApplication : 【SpringBootDemoLogbackApplication】启动异常：
+
+java.lang.ArithmeticException: / by zero
+	at com.mogle.coding.logback.SpringBootDemoLogbackApplication.main(SpringBootDemoLogbackApplication.java:22)
+
